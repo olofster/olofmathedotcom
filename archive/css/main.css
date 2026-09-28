@@ -1,0 +1,155 @@
+/* line 4, ../sass/main.scss */
+html {
+  background: #3b97b2 url("../images/stockholm_lighter.jpg") no-repeat center center fixed;
+  font-size: 1em;
+  height: 100%;
+  line-height: 1.4;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 15, ../sass/main.scss */
+body {
+  font-family: "Bitter",serif;
+  color: white;
+  display: table;
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* line 28, ../sass/main.scss */
+.teaser {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: left;
+  padding: 0 0 7% 5%;
+}
+
+/* line 35, ../sass/main.scss */
+h1 {
+  font-size: 42px;
+  line-height: 1.45;
+  margin: 25px 0;
+  font-weight: normal;
+  text-shadow: 1px 0 3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 43, ../sass/main.scss */
+.share {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: -3px;
+}
+
+/* line 50, ../sass/main.scss */
+.icon {
+  display: inline-block;
+  height: 38px;
+  width: 38px;
+  border-radius: 19px;
+  background-color: rgba(255, 255, 255, 0.25);
+  background-size: 38px 38px;
+  margin-right: 14px;
+  overflow: hidden;
+  box-shadow: 1px 0 3px rgba(0, 0, 0, 0.05);
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+/* line 62, ../sass/main.scss */
+.icon:hover {
+  background-color: white;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+/* line 66, ../sass/main.scss */
+.icon:hover a {
+  opacity: 1;
+}
+/* line 71, ../sass/main.scss */
+.icon a {
+  display: block;
+  height: 38px;
+  width: 38px;
+  opacity: 0;
+  color: rgba(255, 255, 255, 0);
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+/* line 81, ../sass/main.scss */
+.twitter {
+  background-image: url(../images/icon-twitter.svg);
+}
+
+/* line 85, ../sass/main.scss */
+.github {
+  background-image: url(../images/icon-github.svg);
+}
+
+/* line 89, ../sass/main.scss */
+.linkedin {
+  background-image: url(../images/icon-linkedin.svg);
+}
+
+@-webkit-keyframes fadeIn {
+  /* line 93, ../sass/main.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 93, ../sass/main.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  /* line 94, ../sass/main.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 94, ../sass/main.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  /* line 95, ../sass/main.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 95, ../sass/main.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  /* line 96, ../sass/main.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 96, ../sass/main.scss */
+  to {
+    opacity: 1;
+  }
+}
