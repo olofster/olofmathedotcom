@@ -8,26 +8,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="/archive/olofstyle.css">
 <style>
-  .comparison { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; max-width:1016px; margin:16px 0 24px; }
-  .comparison figure { margin:0; min-width:0; }
-  .comparison img { display:block; width:100%; height:auto; aspect-ratio:3 / 4; object-fit:contain; }
-  .comparison figcaption { color:#000; margin-top:8px; font-size:13px; line-height:1.4; }
+  .artwork { width:100%; max-width:500px; margin:16px 0 24px; }
+  .artwork img, .reference img { display:block; width:100%; height:auto; }
+  .project-context { width:100%; max-width:500px; }
+  .project-context .work_title { margin-top:0; }
+  .reference { width:180px; max-width:100%; margin:24px 0 0; }
+  .reference figcaption { color:#666; margin-top:8px; font-size:12px; line-height:1.5; }
+  .reference a { display:block; padding:0; background:transparent; }
+  .reference a:hover { background:transparent; }
+  .reference a:focus-visible { outline:2px solid #f60; outline-offset:4px; }
   table { max-width:100%; }
-  @media(max-width:600px) { .comparison { grid-template-columns:1fr; gap:24px; } }
+  @media(max-width:600px) { .reference { width:150px; } }
 </style>
 
 <link rel="canonical" href="https://olofmathe.com/art/the-struggle-for-attention/">
 </head><body>
-<div class="comparison" aria-label="Without and with the installation">
-  <figure>
-    <img src="/art/the-struggle-for-attention/without-installation-retouched.png" alt="The entrance without the installation, AI-retouched to remove flags and adjust framing, perspective and color." width="1086" height="1448">
-    <figcaption>Without installation (AI-retouched)</figcaption>
-  </figure>
-  <figure>
+<figure class="artwork">
     <img src="/archive/images/mediaexpo1.JPG" alt="The Struggle for Attention: a giant pink screaming face around the entrance with a red carpet tongue." width="960" height="1280">
-    <figcaption>The Struggle for Attention</figcaption>
-  </figure>
-</div>
+</figure>
+<div class="project-context">
+<div>
 <p class='work_title'>The Struggle for Attention</p>
 <table width="500">
   <tbody><tr> 
@@ -38,7 +38,15 @@
           Metro 2 May 2000.--></div></td>
 		 
   </tr>
-</tbody></table><br><br>
+</tbody></table>
+</div>
+<figure class="reference">
+  <a href="/art/the-struggle-for-attention/without-installation-retouched.png" aria-label="Enlarge reference: without installation">
+    <img src="/art/the-struggle-for-attention/without-installation-retouched.png" alt="The entrance without the installation, AI-retouched to remove flags and adjust framing, perspective and color." width="1086" height="1448">
+  </a>
+  <figcaption>Without installation</figcaption>
+</figure>
+</div>
 
   
 <p></p>
